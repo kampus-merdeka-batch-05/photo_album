@@ -7,4 +7,8 @@ app.use(express.json())
 
 app.use(routes)
 
+app.get("/", (req, res) => {
+  res.send("Hello from railway")
+})
+
 module.exports = app
