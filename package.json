@@ -7,7 +7,8 @@
     "start": "nodemon bin/http.js",
     "test": "NODE_ENV=test jest --detectOpenHandles",
     "db:create:test": "NODE_ENV=test npx sequelize db:create",
-    "db:migrate:test": "NODE_ENV=test npx sequelize db:migrate"
+    "db:migrate:test": "NODE_ENV=test npx sequelize db:migrate",
+    "db:migrate:prod": "NODE_ENV=production npx sequelize db:migrate"
   },
   "keywords": [],
   "author": "",
